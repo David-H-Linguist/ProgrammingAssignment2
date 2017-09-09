@@ -2,6 +2,9 @@
 ## functions do
 
 ## Write a short comment describing this function
+## Checks to see if the inverse has already been calculated,
+## if yes, then grab the cached version,
+## if not, call the function to calculate it.
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
@@ -19,6 +22,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+## Grabs the inverse of the input matrix
 
 cacheSolve <- function(x, ...) {
   ## Return a matrix that is the inverse of 'x'
